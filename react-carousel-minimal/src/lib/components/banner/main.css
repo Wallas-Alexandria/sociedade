@@ -1,0 +1,55 @@
+.section__banner {
+    /* position: absolute; */
+    width: 100%;
+    height: 330px;
+    /* background: url("./im/projetoImg01.png") no-repeat; */
+    background: red;
+    background-size: 100% 400px;
+    display: flex;
+}
+
+.section__projeto {
+    width: 340px;
+    height: 215px;
+    margin: auto;
+    box-shadow: 0px 2.62133px 2.62133px rgba(0, 0, 0, 0.15);
+    background: rgba(245, 245, 245, 0.85);
+    border-radius: 6.55333px;
+}
+
+.alinhamento__projeto {
+    width: 90%;
+    margin: auto;
+    /* padding-top: 20px; */
+}
+
+.titulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #FE6C05;
+    width: 80%;
+    border-left: 9px solid #FE6C05;
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+
+.paragrafo {
+    width: 95%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+}
+
+.button__info {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+
+    text-transform: none;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px auto;
+    display: block;
+}

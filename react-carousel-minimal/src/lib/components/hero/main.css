@@ -1,0 +1,197 @@
+.section__empresa {
+    background: linear-gradient(180deg, #63B2BB 34.11%, rgba(224, 125, 37, 0.58) 100%);
+    height: 640px;
+}
+
+iframe {
+    display: block;
+    margin: 15px auto 10px auto;
+
+    height: 220px;
+    width: 95%;
+}
+
+.section__quem {
+    margin: auto auto 35px auto;
+    padding-top: 15px;
+
+    width: 80%;
+}
+
+.titulo__empresa {
+    border-left: 3px solid #525252;
+
+    color: #525252;
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-weight: 800;
+    text-align: left;
+    text-transform: uppercase;
+
+    padding-top: 5px;
+    padding-left: 10px;
+    padding: 5px auto auto 10px;
+
+    margin-bottom: 15px;
+
+    height: 38px;
+}
+
+.paragrafo__empresa {
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: left;
+}
+
+.empresa__info {
+    margin: auto;
+    width: 80%;
+}
+
+.circle__info {
+    background: #20B1C1;
+    border-radius: 50%;
+
+    color: #F5F5F5;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: auto;
+    margin-bottom: 25px;
+
+    width: 121px;
+    height: 121px;
+}
+
+.circle__paragrafo--wrap {
+    word-wrap: wrap;
+
+    width: 70%;
+}
+
+.cirlce--wrap {
+    word-break: break-word;
+}
+
+@media (min-width: 640px) {
+    .section__empresa {
+        height: 400px;
+    }
+
+    iframe {
+        margin: 20px auto 15px auto;
+
+        height: 380px;
+        width: 95%;
+    }
+
+    .section__quem {
+        margin-bottom: 30px;
+        padding-top: 50px;
+
+        width: 70%;
+    }
+
+    .titulo__empresa {
+        border-left: 4px solid #525252;
+
+        font-size: 25px;
+
+        height: 35px;
+        margin-bottom: 20px;
+    }
+
+    .paragrafo__empresa {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .empresa__info {
+        display: flex;
+
+        margin: auto;
+        width: 80%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero__background {
+        background: linear-gradient(180deg, #63B2BB 34.11%, rgba(224, 125, 37, 0.58) 100%);
+
+        height: 550px;
+        width: 100%;
+    }
+
+    .hero {
+        align-items: center;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+
+        margin: auto;
+
+        height: 550px;
+        width: 90%;
+
+
+    }
+
+    .section__empresa {
+        background: none;
+
+        height: 440px;
+        width: 560px;
+    }
+
+    iframe {
+        height: 440px;
+
+        margin: 0;
+        width: 640px;
+    }
+
+    .section__quem {
+        margin-bottom: 30px;
+        padding-top: 0;
+
+        width: 90%;
+    }
+
+    .titulo__empresa {
+        border-left: 5px solid #525252;
+        font-size: 28px;
+
+        margin-bottom: 25px;
+        padding-top: 10px;
+
+        height: 48px;
+    }
+
+    .paragrafo__empresa {
+        font-size: 18px;
+        text-align: center;
+
+        margin-bottom: 60px;
+        height: 140px;
+    }
+
+    .empresa__info {
+        display: flex;
+        margin: auto;
+        width: 95%;
+    }
+
+    .circle__info {
+        font-size: 24px;
+        height: 160px;
+        width: 160px;
+    }
+}

@@ -1,0 +1,20 @@
+/* === Tipografia === */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
+/* === Reset === */
+* {
+  background: none;
+  border: none;
+  list-style: none;
+
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
