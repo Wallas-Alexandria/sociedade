@@ -183,9 +183,8 @@ function Carousel({
                     </div>
                   )}
                   <div
-                    className={`carousel-caption-${
-                      captionPosition ? captionPosition : "bottom"
-                    }`}
+                    className={`carousel-caption-${captionPosition ? captionPosition : "bottom"
+                      }`}
                     style={captionStyle}
                     dangerouslySetInnerHTML={{ __html: item.caption }}
                   ></div>
@@ -205,13 +204,13 @@ function Carousel({
               </a>
             )}
             {showNavBtn && (
-              <a className="next"onClick={(e) => {addSlide(1);setChange(!change); }}  >
-               
-                
-                  
-                  
-               
-            
+              <a className="next" onClick={(e) => { addSlide(1); setChange(!change); }}  >
+
+
+
+
+
+
                 &#10095;
               </a>
             )}
