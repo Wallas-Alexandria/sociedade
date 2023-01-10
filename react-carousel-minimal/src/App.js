@@ -1,9 +1,9 @@
 import "./App.css";
 import { Carousel } from "./lib";
 import Menu from './lib/components/header/';
-// import QuemSomos from './lib/components/QuemSomos/index';
 import Hero from './lib/components/hero/';
 import Footer from './lib/components/footer/';
+
 
 function App() {
   const data = [
@@ -48,7 +48,8 @@ function App() {
         <>
           <Menu />
         </>
-      </section>
+      </section >
+
 
       <div style={{ textAlign: "center" }}>
         <div
@@ -80,9 +81,8 @@ function App() {
 
             }}
           />
-
-        </div>
-      </div>
+        </div >
+      </div >
 
       <section>
         <>
@@ -95,7 +95,7 @@ function App() {
           <Footer />
         </>
       </section>
-    </div>
+    </div >
   );
 }
 

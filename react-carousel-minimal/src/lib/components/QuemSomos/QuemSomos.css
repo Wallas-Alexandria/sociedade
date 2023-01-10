@@ -13,7 +13,8 @@
 
 iframe {
     position: absolute;
-    width: 641px;
+    max-width: 600px;
+    width: 100%;
     height: 466.5px;
     left: 83px;
     top: 37px;
@@ -27,7 +28,7 @@ iframe {
     position: absolute;
 
     left: 763px;
-    top: 0px;
+    top: 60px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -129,6 +130,42 @@ iframe {
     position: absolute;
     top: 50px;
 }
+@media screen and (max-width: 1344px){
+    .quemsomos h6 {
+
+        left: 130px;
+        
+    }
+    .barraquemsomos{
+        left: 120px;
+    }
+    .quemsomos p{
+        left: 100px;
+    }
+    .circulo1 {
+       left: 10%;
+    }
+    .circulo2 {
+    left: 45%;
+    }
+    .circulo3{
+left: 80%;
+    }
+    iframe{
+        position: absolute;
+        left: 5%;
+        top:101%;
+    
+       width: 90%;
+       height: 20%;
+    }
+}
+
+
+
+
+
+
 @media screen and (max-width: 360px){
     .quemsomos h6 {
         top: -60px;
