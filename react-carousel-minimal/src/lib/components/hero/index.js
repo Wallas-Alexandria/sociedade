@@ -1,6 +1,6 @@
 import './main.css'
 
-function QuemSomos() {
+function Hero() {
     return (
         <section className="hero__background">
             <div className="hero">
@@ -46,4 +46,4 @@ function QuemSomos() {
     )
 }
 
-export default QuemSomos
+export default Hero

@@ -11,9 +11,9 @@ function Menu() {
 
     return (
         <header className="header">
-            <img className="logo" src="./Imgs/logoMobile.png" alt="Logo do site" />
+            <img className="logo" src="./imagens/logoMobile.png" alt="Logo do site" />
             <div className="menu__conteiner">
-                <img className={active ? "menu__icon menu__icon--ative" : "menu__icon"} src="./Imgs/menuIcon.svg" alt="Icone menu" onClick={ToggleMode} />
+                <img className={active ? "menu__icon menu__icon--ative" : "menu__icon"} src="./imagens/menuIcon.svg" alt="Icone menu" onClick={ToggleMode} />
                 <div className={active ? "menu__responsivo menu__responsivo--ative" : "menu__responsivo"}>
                     <nav>
                         <ul className={active ? "menu__links menu__links--active" : "menu__links"}>
