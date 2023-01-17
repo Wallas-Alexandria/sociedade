@@ -6,7 +6,7 @@ function Hero() {
             <div className="hero">
                 <section className="section__empresa">
                     <section className="section__quem">
-                        <h1 id="projeto__nome" className="titulo__empresa">QUEM SOMOS</h1>
+                        <h1 id="projeto__nome" className="titulo__empresa">Quem somos?</h1>
                         <p className="paragrafo paragrafo__empresa">
                             Somos uma organização não-governamental com sede em Duque de Caxias-RJ.
                             Atualmente a instituição é formada por uma equipe de mais de 50 voluntários, das

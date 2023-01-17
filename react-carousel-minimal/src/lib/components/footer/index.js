@@ -1,11 +1,12 @@
 import './main.css'
-
+import footer1 from '../footer/footer1.png'
 
 function Rodape() {
     return (
         <footer>
 
             <section className="section__caracteristicas">
+               
                 <div className="section__caracteristicas__conteiner">
                     <section className="section__caracteristica">
                         <h1 className="caracteristica__titulo">
@@ -40,6 +41,7 @@ function Rodape() {
                             Todos somos únicos, diferentes e singulares.
                             Transformação econômica e ambiental: trabalhamos por uma sociedade mais
                             humana e justa, e por um mundo melhor para todos, até às próximas gerações.
+
                         </p>
                     </section>
                 </div>
