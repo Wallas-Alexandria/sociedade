@@ -24,7 +24,6 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "core-js": "^3.16.0",
-    "node": "^19.4.0",
     "react-easy-swipe": "0.0.22"
   },
   "scripts": {
