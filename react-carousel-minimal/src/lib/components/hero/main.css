@@ -38,6 +38,8 @@ iframe {
 }
 
 .paragrafo__empresa {
+    position: relative;
+    bottom: 15px;
     color: #FFFFFF;
     font-family: 'Poppins';
     font-size: 14px;
@@ -52,6 +54,8 @@ iframe {
 }
 
 .circle__info {
+    position: relative;
+    top: 55px;
     background: #20B1C1;
     border-radius: 50%;
 
@@ -115,6 +119,8 @@ iframe {
     }
 
     .empresa__info {
+          position: relative;
+          bottom: 30px;
         display: flex;
 
         margin: auto;
@@ -122,7 +128,8 @@ iframe {
     }
 }
 
-@media (min-width: 1200px) {
+
+@media   (min-width: 1200px) {
     .hero__background {
         background: linear-gradient(180deg, #63B2BB 34.11%, rgba(224, 125, 37, 0.58) 100%);
 
@@ -190,6 +197,8 @@ iframe {
     }
 
     .circle__info {
+   
+    
         font-size: 24px;
         height: 160px;
         width: 160px;

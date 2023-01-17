@@ -8,7 +8,8 @@ footer {
 
 .section__caracteristicas {
   background: rgba(82, 82, 82, 0.6);
-  height: 628px;
+  opacity: 0.9;
+  max-height: 1100px;
 }
 
 .section__caracteristica {
@@ -38,13 +39,16 @@ footer {
 
 @media (min-width: 640px) {
   footer {
-    height: 416px;
+    position: relative;
+    background-image: url('./footer1.png');
+height: 700px;
+
   }
 
   .section__caracteristicas__conteiner {
     display: flex;
     justify-content: space-between;
-
+    height: 700px;
     margin: auto;
     width: 95%;
   }
@@ -56,6 +60,7 @@ footer {
   .section__caracteristica {
     margin: 0;
     width: 220px;
+    height: 700px;
   }
 
   .caracteristica__titulo {
