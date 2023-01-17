@@ -12,7 +12,9 @@ function Rodape() {
                             Missão
                         </h1>
                         <p className="caracteristica__paragrafo">
-                            Transformar o meio social das comunidades através de ações
+                            Transformar a realidade das comunidades por meio de ações culturais, esportivas e
+                            de geração de renda, transmitindo valores coletivos e individuais aos atendidos,
+                            bem como conscientizá-los sobre os próprios direitos e deveres na sociedade.
                         </p>
                     </section>
 
@@ -21,7 +23,9 @@ function Rodape() {
                             Visão
                         </h1>
                         <p className="caracteristica__paragrafo">
-                            Ser uma organização social de referência na co-criação de estratégias
+                            Ser reconhecida, no âmbito nacional e internacional, como organização de
+                            referência na cocriação, promoção e implementação de projetos e estratégias de
+                            transformação social.
                         </p>
                     </section>
 
@@ -30,7 +34,12 @@ function Rodape() {
                             Valores
                         </h1>
                         <p className="caracteristica__paragrafo">
-                            Acreditamos e Impulsionamos o individuo a alcançar seus sonhos e objetivos.
+                            Coragem: acreditamos e impulsionamos o indivíduo a sonhar, traçar metas e
+                            alcançar objetivos.
+                            Respeito à Diversidade: valorizamos cada indivíduo e reconhecemos a pluralidade.
+                            Todos somos únicos, diferentes e singulares.
+                            Transformação econômica e ambiental: trabalhamos por uma sociedade mais
+                            humana e justa, e por um mundo melhor para todos, até às próximas gerações.
                         </p>
                     </section>
                 </div>

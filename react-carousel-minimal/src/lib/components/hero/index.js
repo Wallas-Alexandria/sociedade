@@ -8,8 +8,12 @@ function Hero() {
                     <section className="section__quem">
                         <h1 id="projeto__nome" className="titulo__empresa">QUEM SOMOS</h1>
                         <p className="paragrafo paragrafo__empresa">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel est tortor. Ut eget nulla vel lorem convallis semper et eu ante.
-
+                            Somos uma organização não-governamental com sede em Duque de Caxias-RJ.
+                            Atualmente a instituição é formada por uma equipe de mais de 50 voluntários, das
+                            áreas de RH, Pedagogia, Publicidade e Marketing e Tecnologia.
+                            Temos o programa Trilha de Carreira, que visa o desenvolvimento pessoal e
+                            profissional através do nosso ambiente de voluntariado, funcionando como um
+                            laboratório de experiências profissionais.
                         </p>
                     </section>
                     <section className="empresa__info">
