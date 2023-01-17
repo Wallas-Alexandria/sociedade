@@ -110,10 +110,8 @@
 }
 
 .botao:hover {
-    background-color: #20B1C1;
+    background: #20B1C1;
 }
-
-
 @media(min-width: 800px) {
 
     /* === HEADER === */
@@ -175,6 +173,7 @@
         height: 25px;
         width: 110px;
     }
+
 }
 
 @media(min-width: 1200px) {
