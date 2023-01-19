@@ -73,6 +73,8 @@
 
 .menu__responsivo--ative {
     position: absolute;
+    z-index: 1;
+    margin-top: 10px;
 }
 
 .menu__icon--ative {
