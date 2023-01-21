@@ -3,6 +3,7 @@
 .menu__conteiner {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .menu__icon,
@@ -19,8 +20,18 @@
     margin: auto;
 
     height: 100px;
-    width: 90%;
+    width: 100%;
 }
+
+.header--fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
+}
+
 
 /* === LOGO === */
 .logo {

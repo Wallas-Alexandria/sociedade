@@ -1,16 +1,31 @@
 import './main.css'
-import { useState } from 'react';
-import { act } from 'react-dom/cjs/react-dom-test-utils.production.min';
+import { useState, useEffect } from 'react';
 
 function Menu() {
     const [active, setMode] = useState(false);
+    const [headerFixed, setHeaderFixed] = useState(false);
+
     const ToggleMode = () => {
         setMode(!active)
     }
 
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    const handleScroll = () => {
+        if (window.pageYOffset > 0) {
+            setHeaderFixed(true);
+        } else {
+            setHeaderFixed(false);
+        }
+    }
 
     return (
-        <header className="header">
+        <header className={`header ${headerFixed ? 'header--fixed' : ''}`}>
             <img className="logo" src="./imagens/logoMobile.png" alt="Logo do site" />
             <div className="menu__conteiner">
                 <img className={active ? "menu__icon menu__icon--ative" : "menu__icon"} src="./imagens/menuIcon.svg" alt="Icone menu" onClick={ToggleMode} />
