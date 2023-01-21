@@ -47,6 +47,7 @@
 
 .menu__links--active {
     display: block;
+    transition: all 1.6s ease;
 }
 
 .menu__link {
@@ -73,6 +74,8 @@
 
 .menu__responsivo--ative {
     position: absolute;
+    z-index: 1;
+    transition: all 1.2s ease;
 }
 
 .menu__icon--ative {
@@ -107,11 +110,13 @@
 
     height: 35px;
     width: 160px;
+
 }
 
 .botao:hover {
     background: #20B1C1;
 }
+
 @media(min-width: 800px) {
 
     /* === HEADER === */
@@ -193,6 +198,7 @@
     /* === MENU === */
     .menu__link {
         padding: 0 15px 0 15px;
+        height: 25px;
     }
 
     .menu__responsivo {

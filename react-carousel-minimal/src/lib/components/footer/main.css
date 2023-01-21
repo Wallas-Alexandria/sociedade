@@ -1,15 +1,13 @@
 footer {
   background-size: 100% 100%;
-  background: url('./footer1.png') no-repeat;
-
-  height: 628px;
+  background: url('./footerbg.png') no-repeat, linear-gradient(180deg, #63B2BB 34.11%, rgba(224, 125, 37, 0.58) 100%);
+  background-position: center;
+  height: 1012px;
   width: 100%;
 }
 
 .section__caracteristicas {
-  background: rgba(82, 82, 82, 0.6);
-  opacity: 0.9;
-  max-height: 1100px;
+  background: rgba(82, 82, 82, 0.9);
 }
 
 .section__caracteristica {
@@ -37,22 +35,13 @@ footer {
   line-height: 27px;
 }
 
+.paragrafo--valores {
+  margin-bottom: 5px;
+}
+
 @media (min-width: 640px) {
-  footer {
-    background-image: url('./footer1.png');
-  }
-
-  .section__caracteristicas__conteiner {
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* height: 1500px; */
-    /* margin: auto; */
-    /* width: 95%; */
-  }
-
-  .section__caracteristicas {
-    /* height: 800px; */
-    /* width: 90 */
+  footer, .section__caracteristicas {
+    height: 950px;
   }
 
   .section__caracteristica {
@@ -62,39 +51,76 @@ footer {
 
   .caracteristica__titulo {
     font-weight: 900px;
-    /* padding: 40px 0 50px 0; */
+    padding: 40px 0 50px 0;
   }
 
   .caracteristica__paragrafo {
     font-size: 18px;
   }
+
+  .valores__titulo{
+    padding-right: 5px;
+  }
+
 }
 
 @media (min-width: 1200px) {
-  footer {
-    height: 440px;
+  footer, .section__caracteristicas {
+    height: 230px;
   }
 
-  .section__caracteristicas__conteiner {
+  .section__caracteristicas--conteiner {
     display: flex;
     justify-content: space-between;
     margin: auto;
-  }
 
-  .section__caracteristicas {
-    height: 440px;
+    width: 90%;
   }
 
   .section__caracteristica {
-    width: 360px;
-    max-width: 360px;
+    margin-top: 0;
+    height: 230px;
   }
 
   .caracteristica__titulo {
-    padding: 25px 0 40px 0;
+    padding: 30px 0 40px 0;
   }
 
   .caracteristica__paragrafo {
-    font-size: 18px;
+    font-size: 16px;
+
+
+    overflow: hidden;
+    margin: auto;
+
+    height: 55px;
+    width: 370px;
+  }
+
+  .caracteristica__paragrafo:hover {
+    position: absolute;
+    z-index: 1;
+    width: 600px;
+    height: 110px;
+    background: rgba(82, 82, 82, 0.9);
+    /* padding: 5px; */
+  }
+
+  .caracteristica__paragrafo--valores:hover {
+    display: flex;
+    width: 1270px;
+    justify-content: space-between;
+    right: 0;
+  }
+
+  .valores__titulo {
+    display: block;
+    font-weight: 800;
+    /* text-align: center; */
+  }
+
+  .paragrafo--valores:hover {
+    /* text-align: left;*/
+    /* width: 375px;  */
   }
 }

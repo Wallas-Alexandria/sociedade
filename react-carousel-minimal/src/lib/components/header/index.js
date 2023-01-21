@@ -5,9 +5,8 @@ import { act } from 'react-dom/cjs/react-dom-test-utils.production.min';
 function Menu() {
     const [active, setMode] = useState(false);
     const ToggleMode = () => {
-        setMode(!active)
+        setMode(!active);
     }
-
 
     return (
         <header className="header">
