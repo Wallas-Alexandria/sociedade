@@ -6,9 +6,9 @@ function Menu() {
     const [headerFixed, setHeaderFixed] = useState(false);
 
     const ToggleMode = () => {
-        setMode(!active)
+        setMode(!active);
     }
-
+    
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         return () => {
@@ -23,7 +23,6 @@ function Menu() {
             setHeaderFixed(false);
         }
     }
-
     return (
         <header className={`header ${headerFixed ? 'header--fixed' : ''}`}>
             <img className="logo" src="./imagens/logoMobile.png" alt="Logo do site" />
